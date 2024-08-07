@@ -16,6 +16,9 @@
       steps:
         - name: Display message
           run: echo "Hello, proute proute"
+        
+        - name: Display message2
+          run: echo "Hello2, proute proute2"
 
         - name: Checkout
           uses: actions/checkout@v3
